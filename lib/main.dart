@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_list/menu.dart'; //Ini buat akses MyHomePage()
+import 'package:shopping_list/screens/menu.dart'; //Ini buat akses MyHomePage()
 
 void main() {
   runApp(const MyApp());
