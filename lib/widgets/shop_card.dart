@@ -61,6 +61,10 @@ class ShopCard extends StatelessWidget {
               ));
             }
           }
+          else if (item.name == "Lihat Produk") {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const ProductPage()));
+          }
         },
         child: Container(
           // Container untuk menyimpan Icon dan Text
